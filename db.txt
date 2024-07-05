@@ -11,7 +11,7 @@ carburante                      VARCHAR(30)                                     
 prezzo                          FLOAT(10,2)                                             NOT_NULL
 n_auto                          TINYINT             UNSIGNED        DEFAULT(1)          NOT_NULL
 stoccaggio_garage               VARCHAR(10)         UNSIGNED        DEFAULT(1A)         NOT_NULL
-n_proprietari                   TINYINT             UNSIGNED        DEFAULT(1A)         NOT_NULL
+n_proprietari                   TINYINT             UNSIGNED        DEFAULT(1)          NOT_NULL
 data_ingresso_concessionario    DATE                                                    NOT_NULL
 condizioni_auto                 TEXT                                                    NOT_NULL
 descrizione                     TEXT                                                    NOT_NULL
